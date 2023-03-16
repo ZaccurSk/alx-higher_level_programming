@@ -1,3 +1,9 @@
 #!/usr/bin/python3
-[[1, 4, 9], [16, 25, 36], [49, 64, 81]]
-[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+if __name__ == "__main__":
+    """Print the sum of 1 and 2."""
+    from add_0 import add
+
+    a = 1
+    b = 2
+    print("{} + {} = {}".format(a, b, add(a, b)))
